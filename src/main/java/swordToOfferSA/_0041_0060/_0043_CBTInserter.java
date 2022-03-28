@@ -1,4 +1,4 @@
-package swordToOfferSA._0041_0060._0021_0040;
+package swordToOfferSA._0041_0060;
 
 import ds.TreeNode;
 
