@@ -3,7 +3,14 @@ package swordToOfferSA._0001_0020;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+* @Title  0 和 1 个数相同的子数组
+* @Link   https://leetcode-cn.com/problems/A1NYOS/
+* @Author KongTong
+* @Date   2022/3/15
+* */
 public class _0011_FindMaxLength {
+    // 前缀和 + HashMap
     public int findMaxLength(int[] nums) {
         int maxLength = 0;
         Map<Integer, Integer> map = new HashMap<>();

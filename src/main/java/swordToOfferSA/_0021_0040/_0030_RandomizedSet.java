@@ -44,6 +44,7 @@ public class _0030_RandomizedSet {
     }
 
     public int getRandom() {
-        return list.get(random.nextInt(0,list.size()));
+        return list.get(random.nextInt(list.size()));
+//        return list.get(random.nextInt(0,list.size()));
     }
 }

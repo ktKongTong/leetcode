@@ -1,5 +1,11 @@
 package swordToOfferSA._0001_0020;
 
+/*
+* @Title  最多删除一个字符得到回文
+* @Link   https://leetcode-cn.com/problems/RQku0D/
+* @Author KongTong
+* @Date   2022/3/15
+* */
 public class _0019_ValidPalindrome {
     public boolean validPalindrome(String s) {
         int count = 2;

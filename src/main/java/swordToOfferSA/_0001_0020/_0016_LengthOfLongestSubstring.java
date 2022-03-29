@@ -3,6 +3,12 @@ package swordToOfferSA._0001_0020;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+* @Title  不含重复字符的最长子字符串
+* @Link   https://leetcode-cn.com/problems/wtcaE1/
+* @Author KongTong
+* @Date   2022/3/15
+* */
 public class _0016_LengthOfLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
         // 创建两个变量来控制滑动窗口的边界

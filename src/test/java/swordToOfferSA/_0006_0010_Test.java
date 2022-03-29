@@ -8,11 +8,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class _0006_0010_Test {
-    /*
-     * 剑指offer 专项突击
-     * 0006 排序数组中两个数字之和
-     * */
-    @org.junit.jupiter.api.Test
+    // 0006 排序数组中两个数字之和
+    @Test
     public void testTwoSum(){
         _0006_TwoSum twoSum = new _0006_TwoSum();
         int [] numbers = new int[]{1,2,4,6,10};
@@ -21,10 +18,7 @@ public class _0006_0010_Test {
         int[] expect = new int[]{1,3};
         Assertions.assertArrayEquals(res,expect);
     }
-    /*
-     * 剑指offer 专项突击
-     * 0007 数组中和为0的三个数
-     * */
+    // 0007 数组中和为0的三个数
     @Test
     public void  testThreeSum(){
         _0007_ThreeSum threeSum = new _0007_ThreeSum();
@@ -32,20 +26,14 @@ public class _0006_0010_Test {
         int [] nums = new int[]{0,-4,-5,3,1,3,4,2,-5,2,4,2,-5};
         List<List<Integer>> res = threeSum.threeSum(nums);
     }
-    /*
-     * 剑指offer 专项突击
-     * 0008 和大于等于target的最短子数组
-     * */
+    // 0008 和大于等于target的最短子数组
     @Test
     public void testMinSubArrayLen(){
         _0008_MinSubArrayLen minSubArrayLen = new _0008_MinSubArrayLen();
         int res = minSubArrayLen.minSubArrayLen(1,new int[]{2});
         Assertions.assertEquals(10,res);
     }
-    /*
-     * 剑指offer 专项突击
-     * 0009 乘积小于k的子数组
-     * */
+    // 0009 乘积小于k的子数组
     @Test
     public void  testMumSubarrayProductLessThanK(){
         _0009_MumSubarrayProductLessThanK mumSubarrayProductLessThanK = new _0009_MumSubarrayProductLessThanK();
@@ -53,10 +41,7 @@ public class _0006_0010_Test {
         int res = mumSubarrayProductLessThanK.dpNumSubarrayProductLessThanK(nums,100);
         Assertions.assertEquals(8,res);
     }
-    /*
-     * 剑指offer 专项突击
-     * 0010 和为k的子数组
-     * */
+    // 0010 和为k的子数组
     @Test
     public void testSubarraySum(){
         _0010_SubarraySum subarraySum = new _0010_SubarraySum();

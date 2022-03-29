@@ -1,5 +1,11 @@
 package swordToOfferSA._0001_0020;
 
+/*
+* @Title  有效的回文
+* @Link   https://leetcode-cn.com/problems/XltzEq/
+* @Author KongTong
+* @Date   2022/3/15
+* */
 public class _0018_IsPalindrome {
     public boolean isPalindrome(String s) {
         //筛选

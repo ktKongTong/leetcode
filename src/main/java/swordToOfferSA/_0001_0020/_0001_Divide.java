@@ -1,11 +1,11 @@
 package swordToOfferSA._0001_0020;
 
 /*
- * @Link https://leetcode-cn.com/problems/xoh6Oh/
- * @Title 整数除法
- * @Author KongTong
- * @Date 2022/03/15
- * */
+* @Title 整数除法
+* @Link https://leetcode-cn.com/problems/xoh6Oh/
+* @Author KongTong
+* @Date 2022/03/15
+* */
 public class _0001_Divide {
     /*
     * 思路:用减法实现的除法
@@ -104,7 +104,6 @@ public class _0001_Divide {
         for (int i = 31; i >= 0; i--) {
             // 首先，右移的话，再怎么着也不会越界
             // 其次，无符号右移的目的是：将 -2147483648 看成 2147483648
-
             // 注意，这里不能是 (a >>> i) >= b 而应该是 (a >>> i) - b >= 0
             // 这个也是为了避免 b = -2147483648，如果 b = -2147483648
             // 那么 (a >>> i) >= b 永远为 true，但是 (a >>> i) - b >= 0 为 false

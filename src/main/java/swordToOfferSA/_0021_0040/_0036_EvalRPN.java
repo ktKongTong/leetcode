@@ -11,27 +11,29 @@ public class _0036_EvalRPN {
         int n2;
         for (String token : tokens) {
             switch (token) {
-                case "+" -> {
+                case "+" :
                     n1 = numsStack.pop();
                     n2 = numsStack.pop();
                     numsStack.push(n2 + n1);
-                }
-                case "-" -> {
+                    break;
+                case "-" :
                     n1 = numsStack.pop();
                     n2 = numsStack.pop();
                     numsStack.push(n2 - n1);
-                }
-                case "*" -> {
+                    break;
+                case "*" :
                     n1 = numsStack.pop();
                     n2 = numsStack.pop();
                     numsStack.push(n2 * n1);
-                }
-                case "/" -> {
+                    break;
+                case "/" :
                     n1 = numsStack.pop();
                     n2 = numsStack.pop();
                     numsStack.push(n2 / n1);
-                }
-                default -> numsStack.push(Integer.parseInt(token));
+                    break;
+                default :
+                    numsStack.push(Integer.parseInt(token));
+                    break;
             }
         }
         return numsStack.pop();

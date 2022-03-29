@@ -3,7 +3,7 @@ package swordToOfferSA;
 import ds.TreeNode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import swordToOfferSA._0041_0060._0021_0040._0043_CBTInserter;
+import swordToOfferSA._0041_0060._0043_CBTInserter;
 
 public class _0026_0030_Test {
     @Test

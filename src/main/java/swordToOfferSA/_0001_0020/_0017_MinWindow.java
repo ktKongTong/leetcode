@@ -3,6 +3,12 @@ package swordToOfferSA._0001_0020;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+* @Title  含有所有字符的最短字符串
+* @Link   https://leetcode-cn.com/problems/M1oyTv/
+* @Author KongTong
+* @Date   2022/3/15
+* */
 public class _0017_MinWindow {
     public String minWindow(String s1, String s2) {
         int l = 0, r = 0;

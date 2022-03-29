@@ -1,5 +1,11 @@
 package swordToOfferSA._0001_0020;
 
+/*
+* @Title  字符串中的变位词
+* @Link   https://leetcode-cn.com/problems/MPnaiL/
+* @Author KongTong
+* @Date   2022/3/15
+* */
 public class _0014_CheckInclusion {
     public boolean checkInclusion(String s1,String s2){
         int n = s1.length(), m = s2.length();

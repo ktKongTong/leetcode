@@ -1,5 +1,11 @@
 package swordToOfferSA._0001_0020;
 
+/*
+* @Title  二维子矩阵的和
+* @Link   https://leetcode-cn.com/problems/O4NDxx/
+* @Author KongTong
+* @Date   2022/3/15
+* */
 public class _0013_NumMatrix {
     int[][] sums;
 
@@ -15,6 +21,7 @@ public class _0013_NumMatrix {
             }
         }
     }
+
     public int sumRegion(int row1, int col1, int row2, int col2) {
         return sums[row2 + 1][col2 + 1] - sums[row1][col2 + 1] - sums[row2 + 1][col1] + sums[row1][col1];
     }

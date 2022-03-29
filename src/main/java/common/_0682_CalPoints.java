@@ -17,22 +17,24 @@ public class _0682_CalPoints {
         Stack<Integer> stack = new Stack<>();
         for (String c: ops) {
              switch (c){
-                 case "+" -> {
+                 case "+" :
                      int a = stack.pop();
                      int b = stack.peek();
                      stack.push(a);
                      stack.push(a+b);
                      sum += a+b;
-                 }
-                 case "D" -> {
+                     break;
+                 case "D" :
                      stack.push(stack.peek()*2);
                      sum += stack.peek();
-                 }
-                 case "C" -> sum -= stack.pop();
-                 default ->{
+                    break;
+                 case "C" :
+                     sum -= stack.pop();
+                     break;
+                 default :
                      stack.push(Integer.parseInt(c));
                      sum += stack.peek();
-                 }
+                 break;
              }
         }
         return sum;
