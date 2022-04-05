@@ -2,17 +2,23 @@ package swordToOfferSA._0021_0040;
 
 import ds.ListNode;
 
-/**
- * Definition for singly-linked list.
- * class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
+/*
+  Definition for singly-linked list.
+  class ListNode {
+      int val;
+      ListNode next;
+      ListNode(int x) {
+          val = x;
+          next = null;
+      }
+  }
  */
+/**
+ * @Title  链表中环的入口节点
+ * @Link   https://leetcode-cn.com/problems/c32eOV/
+ * @Author KongTong
+ * @Date   2022/3/15
+*/
 public class _0022_DetectCycle {
     public ListNode detectCycle(ListNode head) {
         if (head == null) {

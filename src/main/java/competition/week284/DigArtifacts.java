@@ -1,5 +1,5 @@
 package competition.week284;
-/*
+/**
  * @Link https://leetcode-cn.com/problems/find-all-k-distant-indices-in-an-array/
  * @Title 2201. 统计可以提取的工件
  * @Description 存在一个 n x n 大小、下标从 0 开始的网格，网格中埋着一些工件。

@@ -1,8 +1,13 @@
 package swordToOfferSA._0021_0040;
 
 import ds.ListNode;
-
-public class _0027_IsPalindromeList {
+/**
+ * @Title  回文链表
+ * @Link   https://leetcode-cn.com/problems/aMhZSa/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
+public class _0027_IsPalindrome {
     public boolean isPalindrome(ListNode head) {
         if(head == null || head.next == null) {
             return true;

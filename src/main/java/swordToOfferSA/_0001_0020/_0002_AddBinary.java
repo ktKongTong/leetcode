@@ -1,11 +1,11 @@
 package swordToOfferSA._0001_0020;
 
-/*
-* @Title  二进制加法
-* @Link   https://leetcode-cn.com/problems/JFETK5/
-* @Author KongTong
-* @Date   2022/3/15
-* */
+/**
+ * @Title  二进制加法
+ * @Link   https://leetcode-cn.com/problems/JFETK5/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0002_AddBinary {
     /*
      * 剑指offer II 题2

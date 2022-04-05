@@ -2,7 +2,12 @@ package swordToOfferSA._0021_0040;
 
 import java.util.Arrays;
 import java.util.List;
-
+/**
+ * @Title  最小时间差
+ * @Link   https://leetcode-cn.com/problems/569nqc/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0035_FindMinDifference {
     public int findMinDifference(List<String> timePoints) {
         int [] times = new int[timePoints.size()];

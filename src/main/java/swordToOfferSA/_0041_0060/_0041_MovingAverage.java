@@ -1,8 +1,13 @@
-package swordToOfferSA._0041_0060._0021_0040;
+package swordToOfferSA._0041_0060;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
-
+/**
+ * @Title  滑动窗口的平均值
+ * @Link   https://leetcode-cn.com/problems/qIsx9U/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0041_MovingAverage {
     private final Queue<Integer> queue;
     private final int size;

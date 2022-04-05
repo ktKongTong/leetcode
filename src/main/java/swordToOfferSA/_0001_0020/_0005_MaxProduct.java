@@ -1,10 +1,10 @@
 package swordToOfferSA._0001_0020;
-/*
-* @Title  单词长度的最大乘积
-* @Link   https://leetcode-cn.com/problems/aseY1I/
-* @Author KongTong
-* @Date   2022/3/15
-* */
+/**
+ * @Title  单词长度的最大乘积
+ * @Link   https://leetcode-cn.com/problems/aseY1I/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0005_MaxProduct{
     //
     public int maxProduct(String[] words) {

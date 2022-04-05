@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/*
-* @Title  数组中和为 0 的三个数
-* @Link   https://leetcode-cn.com/problems/1fGaJU/
-* @Author KongTong
-* @Date   2022/3/15
-* */
+/**
+ * @Title  数组中和为 0 的三个数
+ * @Link   https://leetcode-cn.com/problems/1fGaJU/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0007_ThreeSum {
     /*
     * TwoSum变体

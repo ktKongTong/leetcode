@@ -1,7 +1,12 @@
 package swordToOfferSA._0021_0040;
 
 import ds.ListNode;
-
+/**
+ * @Title  重排链表
+ * @Link   https://leetcode-cn.com/problems/LGjMqU/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0026_ReorderList {
     public void reorderList(ListNode head) {
         if (head == null || head.next == null) return;
@@ -28,8 +33,7 @@ public class _0026_ReorderList {
     }
 
     private void merge(ListNode first, ListNode second) {
-        ListNode dummy = new ListNode(0);
-        ListNode cur = dummy;
+        ListNode cur = new ListNode(0);
         while (first != null && second != null) {
             cur.next = first;
             first = first.next;

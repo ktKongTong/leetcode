@@ -2,8 +2,6 @@ package swordToOfferSA;
 import org.junit.jupiter.api.*;
 import swordToOfferSA._0001_0020.*;
 
-import java.util.Arrays;
-
 public class _0001_0005_Test {
     // 0001 整数除法
     @Test

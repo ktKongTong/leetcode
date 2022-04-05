@@ -3,12 +3,12 @@ package swordToOfferSA._0001_0020;
 import java.util.Arrays;
 import java.util.HashMap;
 
-/*
-* @Title  只出现一次的数字
-* @Link   https://leetcode-cn.com/problems/WGki4K/
-* @Author KongTong
-* @Date   2022/3/15
-* */
+/**
+ * @Title  只出现一次的数字
+ * @Link   https://leetcode-cn.com/problems/WGki4K/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0004_SingleNumber {
     /*
      * 位运算

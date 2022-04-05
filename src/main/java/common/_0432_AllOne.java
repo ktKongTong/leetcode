@@ -1,15 +1,15 @@
 package common;
 
-/*
-* @Author KongTong
-* @Link https://leetcode-cn.com/problems/all-oone-data-structure/
-* @Title 432. 所有 O(1) 的数据结构
-* @Date 2022/3/16
- */
 
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @Title 所有 O(1) 的数据结构
+ * @Link https://leetcode-cn.com/problems/all-oone-data-structure/
+ * @Author KongTong
+ * @Date 2022/3/16
+ */
 public class _0432_AllOne {
     private static class Node {
         String key;

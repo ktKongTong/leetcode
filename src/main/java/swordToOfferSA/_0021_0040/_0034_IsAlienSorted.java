@@ -1,5 +1,11 @@
 package swordToOfferSA._0021_0040;
 
+/**
+ * @Title  外星语言是否排序
+ * @Link   https://leetcode-cn.com/problems/lwyVBB/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0034_IsAlienSorted {
     public boolean isAlienSorted(String[] words, String order) {
         if(words.length <= 1){

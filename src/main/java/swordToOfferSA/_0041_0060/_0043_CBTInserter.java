@@ -6,7 +6,12 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Queue;
 import java.util.Stack;
-
+/**
+ * @Title  往完全二叉树添加节点
+ * @Link   https://leetcode-cn.com/problems/NaqhDT/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0043_CBTInserter {
     private TreeNode root;
     private ArrayList<Integer> list = new ArrayList<>();

@@ -1,7 +1,12 @@
 package common;
 
 import ds.TreeNode;
-
+/**
+ * @Title  相同的树
+ * @Link   https://leetcode-cn.com/problems/same-tree/
+ * @Author KongTong
+ * @Date   2022/4/2
+ */
 public class _0100_IsSameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         // 双空

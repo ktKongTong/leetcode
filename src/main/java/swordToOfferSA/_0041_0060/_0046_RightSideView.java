@@ -1,14 +1,14 @@
-package swordToOfferSA;
+package swordToOfferSA._0041_0060;
 
 import ds.TreeNode;
 
 import java.util.*;
 
-/*
+/**
+ * @Title  二叉树的右侧视图
+ * @Link   https://leetcode-cn.com/problems/WNC0Lk/
  * @Author KongTong
- * @Link
- * @Title
- * @Date 2022/3/26
+ * @Date   2022/3/26
  */
 public class _0046_RightSideView {
 

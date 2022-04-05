@@ -1,11 +1,11 @@
 package swordToOfferSA._0001_0020;
 
-/*
-* @Title  乘积小于 k 的子数组
-* @Link   https://leetcode-cn.com/problems/ZVAVXX/
-* @Author KongTong
-* @Date   2022/3/15
-* */
+/**
+ * @Title  乘积小于 k 的子数组
+ * @Link   https://leetcode-cn.com/problems/ZVAVXX/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0009_MumSubarrayProductLessThanK {
     // 暴力双指针
     public int numSubarrayProductLessThanK(int[] nums, int k){

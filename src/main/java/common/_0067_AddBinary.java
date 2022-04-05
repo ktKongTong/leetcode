@@ -1,6 +1,6 @@
 package common;
 
-/*
+/**
  * @Title  67.二进制求和
  * @Link   https://leetcode-cn.com/problems/add-binary/
  * @Author KongTong

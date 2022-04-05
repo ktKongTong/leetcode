@@ -1,8 +1,14 @@
 package swordToOfferSA._0021_0040;
 
 import ds.Node;
-
 import java.util.Stack;
+
+/**
+ * @Title  展平多级双向链表
+ * @Link   https://leetcode-cn.com/problems/Qv1Da2/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0028_Flatten {
 
     public Node flatten(Node head) {

@@ -3,10 +3,10 @@ package swordToOffer;
 import ds.ListNode;
 
 
-/*
- * @Author KongTong
- * @Link
+/**
  * @Title
+ * @Link
+ * @Author KongTong
  * @Date 2022/3/22
  */
 public class _0006_ReversePrint {

@@ -1,10 +1,10 @@
 package swordToOfferSA;
 
-/*
+/**
+ * @Title  数组相对排序
+ * @Link   https://leetcode-cn.com/problems/0H97ZC/
  * @Author KongTong
- * @Link https://leetcode-cn.com/problems/0H97ZC/
- * @Title 剑指 Offer II 075. 数组相对排序
- * @Date 2022/3/20
+ * @Date   2022/3/20
  */
 public class _0075_RelativeSortArray {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {

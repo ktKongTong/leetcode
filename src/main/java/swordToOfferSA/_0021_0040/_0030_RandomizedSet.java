@@ -4,7 +4,12 @@ package swordToOfferSA._0021_0040;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
-
+/**
+ * @Title  插入、删除和随机访问都是 O(1) 的容器
+ * @Link   https://leetcode-cn.com/problems/FortPu/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0030_RandomizedSet {
     private final ArrayList<Integer> list;
     private final HashMap<Integer, Integer> map;

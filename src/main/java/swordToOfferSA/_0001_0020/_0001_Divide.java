@@ -1,11 +1,11 @@
 package swordToOfferSA._0001_0020;
 
-/*
-* @Title 整数除法
-* @Link https://leetcode-cn.com/problems/xoh6Oh/
-* @Author KongTong
-* @Date 2022/03/15
-* */
+/**
+ * @Title  整数除法
+ * @Link   https://leetcode-cn.com/problems/xoh6Oh/
+ * @Author KongTong
+ * @Date   2022/03/15
+ */
 public class _0001_Divide {
     /*
     * 思路:用减法实现的除法

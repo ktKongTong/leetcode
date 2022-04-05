@@ -1,7 +1,12 @@
 package swordToOfferSA._0021_0040;
 
 import java.util.Stack;
-
+/**
+ * @Title  小行星碰撞
+ * @Link   https://leetcode-cn.com/problems/XagZNi/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0037_AsteroidCollision {
     public int[] asteroidCollision(int[] asteroids) {
         Stack<Integer> stack = new Stack<>();

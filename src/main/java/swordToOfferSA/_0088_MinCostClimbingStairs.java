@@ -1,10 +1,10 @@
 package swordToOfferSA;
 
-/*
+/**
+ * @Title  爬楼梯的最少成本
+ * @Link   https://leetcode-cn.com/problems/GzCJIP/
  * @Author KongTong
- * @Link
- * @Title
- * @Date 2022/3/20
+ * @Date   2022/3/20
  */
 public class _0088_MinCostClimbingStairs {
     public int minCostClimbingStairs(int[] cost) {

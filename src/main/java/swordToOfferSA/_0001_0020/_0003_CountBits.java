@@ -1,11 +1,11 @@
 package swordToOfferSA._0001_0020;
 
-/*
-* @Title  前 n 个数字二进制中 1 的个数
-* @Link   https://leetcode-cn.com/problems/w3tCBm/
-* @Author KongTong
-* @Date   2022/3/15
-* */
+/**
+ * @Title  前 n 个数字二进制中 1 的个数
+ * @Link   https://leetcode-cn.com/problems/w3tCBm/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0003_CountBits {
     /*
     * 动态规划

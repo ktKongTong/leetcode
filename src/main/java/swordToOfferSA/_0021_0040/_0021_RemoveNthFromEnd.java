@@ -2,15 +2,21 @@ package swordToOfferSA._0021_0040;
 
 import ds.ListNode;
 
+/*
+  Definition for singly-linked list.
+  public class ListNode {
+      int val;
+      ListNode next;
+      ListNode() {}
+      ListNode(int val) { this.val = val; }
+      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+  }
+ */
 /**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
+ * @Title  删除链表的倒数第 n 个结点
+ * @Link   https://leetcode-cn.com/problems/SLwz0R/
+ * @Author KongTong
+ * @Date   2022/3/15
  */
 public class _0021_RemoveNthFromEnd {
     public ListNode removeNthFromEnd(ListNode head, int n) {

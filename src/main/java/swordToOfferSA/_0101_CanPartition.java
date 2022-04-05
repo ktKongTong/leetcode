@@ -1,10 +1,10 @@
 package swordToOfferSA;
 
-/*
+/**
+ * @Title  分割等和子集
+ * @Link   https://leetcode-cn.com/problems/NUPfPr/
  * @Author KongTong
- * @Link
- * @Title
- * @Date 2022/3/21
+ * @Date   2022/3/21
  */
 public class _0101_CanPartition {
     public boolean canPartition(int[] nums) {

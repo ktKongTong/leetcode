@@ -4,11 +4,11 @@ import ds.TreeNode;
 
 import java.util.HashMap;
 
-/*
+/**
+ * @Title  二叉搜索树中两个节点之和
+ * @Link   https://leetcode-cn.com/problems/opLdQZ/
  * @Author KongTong
- * @Link https://leetcode-cn.com/problems/opLdQZ/
- * @Title
- * @Date 2022/3/16
+ * @Date   2022/3/16
  */
 public class _0056_FindTarget {
     public boolean findTarget(TreeNode root, int k) {

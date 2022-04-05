@@ -1,11 +1,11 @@
 package swordToOfferSA._0001_0020;
 
-/*
-* @Title  回文子字符串的个数
-* @Link   https://leetcode-cn.com/problems/a7VOhD/
-* @Author KongTong
-* @Date   2022/3/15
-* */
+/**
+ * @Title  回文子字符串的个数
+ * @Link   https://leetcode-cn.com/problems/a7VOhD/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0020_CountSubstrings {
     public int countSubstrings(String s) {
         int count = 0;

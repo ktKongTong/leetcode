@@ -1,10 +1,10 @@
 package swordToOfferSA;
 
-/*
+/**
+ * @Title  求平方根
+ * @Link   https://leetcode-cn.com/problems/jJ0w9p/
  * @Author KongTong
- * @Link
- * @Title
- * @Date 2022/3/21
+ * @Date   2022/3/21
  */
 public class _0072_MySqrt {
     public int mySqrt(int x) {

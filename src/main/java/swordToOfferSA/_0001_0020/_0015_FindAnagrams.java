@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/*
-* @Title  字符串中的所有变位词
-* @Link   https://leetcode-cn.com/problems/VabMRr/
-* @Author KongTong
-* @Date   2022/3/15
-* */
+/**
+ * @Title  字符串中的所有变位词
+ * @Link   https://leetcode-cn.com/problems/VabMRr/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0015_FindAnagrams {
     public List<Integer> findAnagrams(String s, String p){
         // m为长串长度

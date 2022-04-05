@@ -2,17 +2,13 @@ package swordToOfferSA._0041_0060;
 
 import ds.TreeNode;
 
-/*
-* @Link https://leetcode-cn.com/problems/NYBBNL/
-* @Title 展平二叉搜索树
-* @Author KongTong
-* @Date 2022/03/15
-* */
+/**
+ * @Title  展平二叉搜索树
+ * @Link   https://leetcode-cn.com/problems/NYBBNL/
+ * @Author KongTong
+ * @Date   2022/03/15
+ */
 public class _0052_IncreasingBST {
-    /*
-    * @Author KongTong
-    * @Description
-    * */
     public TreeNode increasingBST(TreeNode root) {
         if(root == null){
             return null;

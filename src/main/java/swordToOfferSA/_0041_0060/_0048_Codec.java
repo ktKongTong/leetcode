@@ -8,20 +8,20 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
 /*
+  Definition for a binary tree node.
+  public class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode(int x) { val = x; }
+  }
+ */
+/**
+ * @Title  序列化与反序列化二叉树
+ * @Link   https://leetcode-cn.com/problems/h54YBf/
  * @Author KongTong
- * @Link
- * @Title
- * @Date 2022/3/21
+ * @Date   2022/3/21
  */
 public class _0048_Codec {
     public String serialize(TreeNode root) {

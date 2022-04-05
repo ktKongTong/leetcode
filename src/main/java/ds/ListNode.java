@@ -1,8 +1,8 @@
 package ds;
 
-/*
-* 单链表节点
-* */
+/**
+ * 单链表节点
+ */
 public class ListNode {
     public int val;
     public ListNode next;

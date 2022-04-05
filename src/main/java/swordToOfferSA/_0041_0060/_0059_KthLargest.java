@@ -5,11 +5,11 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-/*
+/**
+ * @Title  数据流的第 K 大数值
+ * @Link   https://leetcode-cn.com/problems/jBjn9C/
  * @Author KongTong
- * @Link https://leetcode-cn.com/problems/jBjn9C/
- * @Title
- * @Date 2022/3/16
+ * @Date   2022/3/16
  */
 public class _0059_KthLargest {
     private final int k;

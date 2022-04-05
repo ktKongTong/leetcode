@@ -1,6 +1,13 @@
 package swordToOfferSA._0021_0040;
 
 import java.util.HashMap;
+
+/**
+ * @Title  最近最少使用缓存
+ * @Link   https://leetcode-cn.com/problems/OrIXps/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0031_LRUCache {
     // 双向链表
     private static class Node{

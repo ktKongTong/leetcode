@@ -1,10 +1,10 @@
 package swordToOfferSA._0001_0020;
-/*
-* @Title  排序数组中两个之和
-* @Link   https://leetcode-cn.com/problems/kLl5u1/
-* @Author KongTong
-* @Date   2022/3/15
-* */
+/**
+ * @Title  排序数组中两个之和
+ * @Link   https://leetcode-cn.com/problems/kLl5u1/
+ * @Author KongTong
+ * @Date   2022/3/15
+ */
 public class _0006_TwoSum{
     /*
     * 双指针
