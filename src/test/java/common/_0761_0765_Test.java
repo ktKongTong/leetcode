@@ -1,5 +1,6 @@
 package common;
 
+import common._0501_1000._0762_CountPrimeSetBits;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

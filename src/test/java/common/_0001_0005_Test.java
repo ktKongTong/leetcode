@@ -1,7 +1,7 @@
 package common;
 
-import common._0001_0020._0004_FindMedianSortedArrays;
-import common._0021_0040._0021_MergeTwoLists;
+import common._0001_0100._0001_0020._0004_FindMedianSortedArrays;
+import common._0001_0100._0021_0040._0021_MergeTwoLists;
 import ds.ListNode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

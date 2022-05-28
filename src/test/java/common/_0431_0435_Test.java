@@ -1,5 +1,6 @@
 package common;
 
+import common._0401_0500._0432_AllOne;
 import org.junit.jupiter.api.Test;
 
 /*
